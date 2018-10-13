@@ -22,5 +22,20 @@
         android:key="FILE_LOCATION"
         android:title="@string/file_location"
         android:inputType="text" />
-
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="WEBDAV_USE_BACKEND"
+        android:title="@string/webdav_use_backend" />
+    <Preference
+        android:key="WEBDAV_SERVER"
+        android:title="@string/webdav_server"
+        android:inputType="text" />
+    <Preference
+        android:key="WEBDAV_USERNAME"
+        android:title="@string/webdav_username"
+        android:inputType="text" />
+    <Preference
+        android:key="WEBDAV_PASSWORD"
+        android:title="@string/webdav_password"
+        android:inputType="textPassword" />
 </PreferenceScreen>
